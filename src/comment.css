@@ -1,0 +1,137 @@
+.comments_section {
+    flex-basis: 50%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.comment_div {
+    margin: 5px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.2) inset;
+}
+
+.comments_header {
+    margin: 5px;
+}
+
+.comment_details {
+    margin-left: 8px;
+    background-color: whitesmoke;
+    border: solid 1px darkgrey;
+    padding-bottom: 4px;
+}
+
+
+.comment_text {}
+
+.comment_side_bar {
+    background-color: gray;
+    width: 2px;
+    float: left;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 10px;
+}
+
+.comment_side_bar:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.comments_container {}
+
+
+.expand-comment-link {
+    cursor: pointer;
+}
+
+.user_link_comment {
+    color: #337ab7;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.comment_count_span {
+    padding: 5px;
+}
+
+.user_link_comment_container {
+    display: inline-block;
+}
+
+.comment_date {
+    display: inline-block;
+}
+
+.reply_box {
+    display: none;
+    width: 100%;
+}
+
+.reply_user_color_div {}
+
+.reply_utilities_div {
+    padding: 8px;
+    margin-left: 6px;
+}
+
+
+.reply_div {
+    margin-left: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.post_reply_button {
+    background-color: #de4545;
+    border: none;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 5px;
+    color: white;
+}
+
+.reply_button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 5px;
+    height: 14px;
+    width: 28px;
+    /* background-image: url('images/reply.png'); */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.reply_button:hover {
+    /* background-image: url('images/reply-hover.png'); */
+}
+
+.hide_thread_link {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding-right: 2px;
+}
+
+.hidden {
+    display: none;
+}
