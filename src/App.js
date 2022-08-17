@@ -1,23 +1,62 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { Comment } from './components/Comment'
+
+
+const postId = 'adfsd34234'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Comment
+        id='sd23d'
+        userId='sdae'
+        body='Hello World'
+        postId={postId}
+        createdAt={'dfdf'}
+        replies={
+          [
+            {
+              id: 'sddf23d',
+              userId: 'sdae',
+              body: 'Hello World',
+              replies: [
+                {
+                  id: 'sddd',
+                  userId: 'sdae',
+                  body: 'Hello World',
+                  replies: [],
+                  netVote: 4,
+                  postId: postId,
+                  createdAt: 'dfdf'
+                },
+                {
+                  id: 'sdddddd',
+                  userId: 'sdae',
+                  body: 'Hello World',
+                  replies: [],
+                  netVote: 4,
+                  postId: postId,
+                  createdAt: 'dfdf'
+                },
+              ],
+              netVote: 4,
+              postId: postId,
+              createdAt: 'dfdf'
+            },
+            {
+              id: 'sddfdffd',
+              userId: 'sdae',
+              body: 'Hello World',
+              replies: [],
+              netVote: 4,
+              postId: postId,
+              createdAt: 'dfdf'
+            },
+          ]
+        }
+        netVote={3}
+      />
     </div>
   );
 }

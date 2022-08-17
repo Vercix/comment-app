@@ -5,6 +5,7 @@
 }
 
 .comment_div {
+    padding: 5px;
     margin: 5px;
     margin-bottom: 10px;
     -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.2) inset;
@@ -17,14 +18,17 @@
 }
 
 .comment_details {
+    padding: 0.5em;
     margin-left: 8px;
-    background-color: whitesmoke;
-    border: solid 1px darkgrey;
-    padding-bottom: 4px;
+    // border: solid 1px darkgrey;
+
+    p {
+        margin: 0;
+    }
 }
 
-
-.comment_text {}
+.comment_text {
+}
 
 .comment_side_bar {
     background-color: gray;
@@ -42,8 +46,8 @@
     cursor: pointer;
 }
 
-.comments_container {}
-
+.comments_container {
+}
 
 .expand-comment-link {
     cursor: pointer;
@@ -72,13 +76,13 @@
     width: 100%;
 }
 
-.reply_user_color_div {}
+.reply_user_color_div {
+}
 
 .reply_utilities_div {
     padding: 8px;
     margin-left: 6px;
 }
-
 
 .reply_div {
     margin-left: 12px;
