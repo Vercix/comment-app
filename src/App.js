@@ -13,7 +13,7 @@ function App() {
         userId='sdae'
         body='Hello World'
         postId={postId}
-        createdAt={'dfdf'}
+        createdAt={'5 mins'}
         replies={
           [
             {
@@ -28,7 +28,7 @@ function App() {
                   replies: [],
                   netVote: 4,
                   postId: postId,
-                  createdAt: 'dfdf'
+                  createdAt: '5 mins'
                 },
                 {
                   id: 'sdddddd',
@@ -37,12 +37,12 @@ function App() {
                   replies: [],
                   netVote: 4,
                   postId: postId,
-                  createdAt: 'dfdf'
+                  createdAt: '5 mins'
                 },
               ],
               netVote: 4,
               postId: postId,
-              createdAt: 'dfdf'
+              createdAt: '5 mins'
             },
             {
               id: 'sddfdffd',
@@ -51,7 +51,7 @@ function App() {
               replies: [],
               netVote: 4,
               postId: postId,
-              createdAt: 'dfdf'
+              createdAt: '5 mins'
             },
           ]
         }
