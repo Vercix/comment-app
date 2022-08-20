@@ -93,7 +93,7 @@ export default function Comment({ id, userId, replies, createdAt, body, postId, 
                         <a onClick={() => setShowThread(false)} className='hide_thread_link' />
                     </div>
                     <div id={`comment_contents-${id}`} className='comment_contents'>
-                        <Box p={1} pl={2}  >
+                        <Box p={1} pl={2.5}  >
                             <Typography gutterBottom className='comment_text'>{body}</Typography>
                             <Stack gap={0.5} direction={'row'}>
                                 <Button  size={'small'} variant='outlined' onClick={() => setShowReply(!showReply)} className='reply_Button'>
@@ -103,7 +103,7 @@ export default function Comment({ id, userId, replies, createdAt, body, postId, 
                                     
                                 </Button>
 
-                                <Button size={'small'} variant='outlined' onClick={() => vote(id, -1)} className='downvote_Button'>
+                                <Button sx={{p:0, minWidth:'1.75rem'}} size={'small'} variant='outlined' onClick={() => vote(id, -1)} className='downvote_Button'>
                                     <i className="fa fa-arrow-down"></i>
                                 </Button>
 
@@ -111,7 +111,7 @@ export default function Comment({ id, userId, replies, createdAt, body, postId, 
                                     {netVote}
                                 </span>
 
-                                <Button size={'small'} variant='outlined' onClick={() => vote(id, 1)} className='upvote_Button'>
+                                <Button sx={{p:0, minWidth:'1.75rem'}} size={'small'} variant='outlined' onClick={() => vote(id, 1)} className='upvote_Button'>
                                     <i className="fa fa-arrow-up"></i>
                                 </Button>
 
